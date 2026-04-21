@@ -1,2 +1,8 @@
-let name  = "Ali"
-console.log("Your name is" + name);
+let Yourname  = "Ali"
+console.log("Your name is" + Yourname);
+
+
+function name(){
+  return `your name is: ${Yourname}`
+}
+console.log(name);
